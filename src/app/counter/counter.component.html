@@ -1,0 +1,14 @@
+<div>
+  <div class="border border-info d-flex row w-25 m-5">
+    <button (click)="updateC('-')" class="btn btn-warning m-2 p-2 col">
+      -
+    </button>
+    <span class="col m-2 p-2 text-center" [style.color]="colorRange">
+      {{ localValue }}</span
+    >
+    <button (click)="updateC('+')" class="btn btn-primary m-2 p-2 col">
+      +
+    </button>
+  </div>
+  <h2>min : {{ minValue }} , max : {{ maxValue }}</h2>
+</div>

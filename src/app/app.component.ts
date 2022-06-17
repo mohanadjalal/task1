@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  counterValue : number  ; 
   title = 'task1';
+
+  constructor(){
+    this.counterValue=0 ; 
+  }
 }
